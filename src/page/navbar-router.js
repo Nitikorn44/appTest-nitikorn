@@ -35,11 +35,3 @@ export default function Navbar_router() {
         </div>
     )
 }
-export const Footer=()=>{ //Arrow Function
-    return(
-        <div style={{textAlign: 'center'}}>
-            &copy;{new Date().getFullYear()} All rights reserved
-        </div>
-
-    )
-}
